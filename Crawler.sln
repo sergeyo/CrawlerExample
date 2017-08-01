@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crawler", "Crawler\Crawler.csproj", "{724F011A-17F6-402A-AB3E-CCA7678229FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crawler.Logics", "Crawler.Logics\Crawler.Logics.csproj", "{F73D04EA-A572-402B-AD5E-2417536B6A42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crawler.Tests", "Crawler.Tests\Crawler.Tests.csproj", "{15B6C47E-63BD-4F57-9E3B-6F05B3256CD6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{724F011A-17F6-402A-AB3E-CCA7678229FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{724F011A-17F6-402A-AB3E-CCA7678229FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{724F011A-17F6-402A-AB3E-CCA7678229FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{724F011A-17F6-402A-AB3E-CCA7678229FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F73D04EA-A572-402B-AD5E-2417536B6A42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F73D04EA-A572-402B-AD5E-2417536B6A42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F73D04EA-A572-402B-AD5E-2417536B6A42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F73D04EA-A572-402B-AD5E-2417536B6A42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15B6C47E-63BD-4F57-9E3B-6F05B3256CD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15B6C47E-63BD-4F57-9E3B-6F05B3256CD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15B6C47E-63BD-4F57-9E3B-6F05B3256CD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15B6C47E-63BD-4F57-9E3B-6F05B3256CD6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
