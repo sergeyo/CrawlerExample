@@ -1,4 +1,8 @@
 #tool "nuget:?package=NUnit.ConsoleRunner"
+#tool nuget:?package=MSBuild.SonarQube.Runner.Tool
+#addin nuget:?package=Cake.Sonar
+
+var sonarAuthKey = Argument("SonarAuthKey", "");
 
 Task("Compile")
     .Does(() => {
@@ -6,12 +10,32 @@ Task("Compile")
     });
 
 Task("RunTests")
-    .IsDependentOn("Compile")
     .Does(() => {
         NUnit3("Bin\\*.Tests.dll");
     });
+ 
+Task("SonarBegin")
+  .Does(() => {
+     SonarBegin(new SonarBeginSettings{
+        Url = "https://sonarcloud.io/",
+        Key = "Crawler.Example",
+        Name = "CrawlerExample",
+        Verbose = true,
+        Login = sonarAuthKey
+     });
+  });
 
-Task("Default")
-    .IsDependentOn("RunTests");
+Task("SonarEnd")
+  .Does(() => {
+     SonarEnd(new SonarEndSettings{
+        Login = sonarAuthKey
+     });
+  });
 
-RunTarget("Default");
+Task("RunTestsWithSonar")
+    .IsDependentOn("SonarBegin")
+    .IsDependentOn("Compile")
+    .IsDependentOn("RunTests")
+    .IsDependentOn("SonarEnd");
+
+RunTarget("RunTestsWithSonar");

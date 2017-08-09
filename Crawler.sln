@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crawler.Tests", "Crawler.Te
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EE0F7C38-FACA-4435-AD84-79E1EB076C2E}"
 	ProjectSection(SolutionItems) = preProject
-		Cake\build.cake = Cake\build.cake
+		build.cake = build.cake
 		build.ps1 = build.ps1
 	EndProjectSection
 EndProject
