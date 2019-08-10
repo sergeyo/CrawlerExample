@@ -4,9 +4,15 @@
 
 var sonarAuthKey = Argument("SonarAuthKey", "");
 
-Task("Compile")
+Task("RestorePackages")
     .Does(() => {
-        DotNetBuild("Crawler.sln");
+        NuGetRestore("Crawler.sln");
+    });
+
+Task("Compile")
+    .IsDependentOn("RestorePackages")
+    .Does(() => {
+        MSBuild("Crawler.sln");
     });
 
 Task("RunTests")
@@ -21,7 +27,8 @@ Task("SonarBegin")
         Key = "Crawler.Example",
         Name = "CrawlerExample",
         Verbose = true,
-        Login = sonarAuthKey
+        Login = sonarAuthKey,
+       Organization = "sergeyo"
      });
   });
 
