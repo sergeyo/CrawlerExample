@@ -23,7 +23,7 @@ Task("RunTests")
             },
             new FilePath("./openCoverResult.xml"),
             new OpenCoverSettings()
-                .WithFilter("+[Crawler*]*")
+                .WithFilter("+[*Crawler*]*")
                 .WithFilter("-[Crawler.Tests]*"));
     });
  
