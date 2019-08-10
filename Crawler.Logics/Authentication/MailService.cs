@@ -12,20 +12,15 @@ namespace Crawler.Logics.Authentication
     public class MailService : IMailService
     {
         private static readonly Regex loginUrlRegex = new Regex(@"https://site.com/User/Login/?");
-        private readonly string mail_host;
-        private readonly int mail_port;
-        private readonly bool mail_usessl;
-        private readonly string mail_user;
-        private readonly string mail_password;
         private readonly IMailStore clientImap;
 
         public MailService()
         {
-            mail_host = ConfigurationManager.AppSettings["mail_host"];
-            mail_port = int.Parse(ConfigurationManager.AppSettings["mail_port"]);
-            mail_usessl = bool.Parse(ConfigurationManager.AppSettings["mail_usessl"]);
-            mail_user = ConfigurationManager.AppSettings["mail_user"];
-            mail_password = ConfigurationManager.AppSettings["mail_password"];
+            var mail_host = ConfigurationManager.AppSettings["mail_host"];
+            var mail_port = int.Parse(ConfigurationManager.AppSettings["mail_port"]);
+            var mail_usessl = bool.Parse(ConfigurationManager.AppSettings["mail_usessl"]);
+            var mail_user = ConfigurationManager.AppSettings["mail_user"];
+            var mail_password = ConfigurationManager.AppSettings["mail_password"];
 
             clientImap = new ImapClient(new ProtocolLogger("maillog.txt"));
             clientImap.ServerCertificateValidationCallback = (s, c, h, e) => true;
