@@ -1,4 +1,5 @@
 ﻿using Crawler.Logics.Authentication;
+using Crawler.Logics.Exceptions;
 using Crawler.Logics.SitePageObjects;
 using OpenQA.Selenium;
 using System;
@@ -93,7 +94,7 @@ namespace Crawler.Logics
 
                 if (!mainPage.IsAuthenticated)
                 {
-                    throw new Exception("We have some problems with authentication!");
+                    throw new CrawlerAuthenticationException("We have some problems with authentication!");
                 }
             }
         }

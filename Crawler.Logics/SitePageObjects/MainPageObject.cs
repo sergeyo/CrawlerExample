@@ -8,13 +8,6 @@ namespace Crawler.Logics.SitePageObjects
 {
     class MainPageObject
     {
-        private IWebDriver _webDriver;
-
-        public MainPageObject(IWebDriver webDriver)
-        {
-            _webDriver = webDriver;
-        }
-
         public static MainPageObject Create(IWebDriver driver)
         {
             return PageFactory.InitElements<MainPageObject>(driver);
