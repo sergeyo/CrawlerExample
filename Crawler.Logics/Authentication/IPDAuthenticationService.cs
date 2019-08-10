@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Crawler.Logics.Exceptions;
+using System;
 using System.Threading;
 
 namespace Crawler.Logics.Authentication
@@ -40,7 +41,7 @@ namespace Crawler.Logics.Authentication
                         return linkFromMail;
                     }
                 }
-                throw new Exception($"We didn't receive the mail message with the authentication URL after { retryCount } attempts.");
+                throw new CrawlerAuthenticationException($"We didn't receive the mail message with the authentication URL after { retryCount } attempts.");
             }
         }
     }

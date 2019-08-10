@@ -8,7 +8,6 @@ namespace Crawler.Logics.SitePageObjects
     {
         public SimpleDownloadPageObject(IWebDriver driver)
         {
-
         }
 
         public static SimpleDownloadPageObject Create(IWebDriver driver)

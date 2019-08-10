@@ -5,16 +5,18 @@ using MailKit;
 using MailKit.Net.Imap;
 using MailKit.Search;
 using System.Text.RegularExpressions;
+using Crawler.Logics.Exceptions;
 
 namespace Crawler.Logics.Authentication
 {
     public class MailService : IMailService
     {
-        private string mail_host;
-        private int mail_port;
-        private bool mail_usessl;
-        private string mail_user;
-        private string mail_password;
+        private static readonly Regex loginUrlRegex = new Regex(@"https://site.com/User/Login/?");
+        private readonly string mail_host;
+        private readonly int mail_port;
+        private readonly bool mail_usessl;
+        private readonly string mail_user;
+        private readonly string mail_password;
         private readonly IMailStore clientImap;
 
         public MailService()
@@ -32,8 +34,6 @@ namespace Crawler.Logics.Authentication
             clientImap.Authenticate(mail_user, mail_password);
         }
 
-        Regex loginUrlRegex = new Regex(@"https://site.com/User/Login/?");
-        
         public string FindRecentAuthLink() {
             var inbox = clientImap.Inbox;
             inbox.Open(FolderAccess.ReadOnly);
@@ -48,13 +48,13 @@ namespace Crawler.Logics.Authentication
                                                        .OrderByDescending(m => m.Date)
                                                        .FirstOrDefault();
 
-            if (mostRecentLoginUrlMessage == null) throw new Exception("No recent LoginLink letters found in Inbox!");
+            if (mostRecentLoginUrlMessage == null) throw new CrawlerAuthenticationException("No recent LoginLink letters found in Inbox!");
 
             var match = loginUrlRegex.Match(mostRecentLoginUrlMessage.TextBody);
 
             if (!match.Success)
             {
-                throw new Exception("No login link found in the last LoginLink letter!");
+                throw new CrawlerAuthenticationException("No login link found in the last LoginLink letter!");
             }
 
             return match.Value;

@@ -9,12 +9,6 @@ namespace Crawler.Logics
 {
     public class CrawlerLogics
     {
-        private static readonly string mainPageUrl;
-        static CrawlerLogics()
-        {
-            mainPageUrl = ConfigurationManager.AppSettings["mainPageLink"];
-        }
-
         public void DownloadAllReports()
         {
             using (IWebDriver driver = WebDriverFactory.Create())

@@ -74,6 +74,7 @@
     <Compile Include="Authentication\MailService.cs" />
     <Compile Include="Authentication\MailServiceFactory.cs" />
     <Compile Include="CrawlerLogics.cs" />
+    <Compile Include="Exceptions\CrawlerAuthenticationException.cs" />
     <Compile Include="SitePageObjects\SimpleDownloadPageObject.cs" />
     <Compile Include="SitePageObjects\DownloadablePageObject.cs" />
     <Compile Include="SitePageObjects\MainPageObject.cs" />

@@ -6,7 +6,7 @@ using System.IO;
 
 namespace Crawler.Logics
 {
-    internal class WebDriverFactory
+    internal static class WebDriverFactory
     {
         public static IWebDriver Create()
         {
