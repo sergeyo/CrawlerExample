@@ -65,7 +65,9 @@ namespace Crawler.Logics.Authentication
             try {
                 clientImap.Disconnect(true);
             }
-            catch (Exception) {}
+            catch (Exception) {
+                // justi ignore because if connection is already down we don't need it
+            }
 
             clientImap.Dispose();
         }
