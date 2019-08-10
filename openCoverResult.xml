@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CoverageSession xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="4.7.922.0">
-  <Summary numSequencePoints="264" visitedSequencePoints="24" numBranchPoints="74" visitedBranchPoints="6" sequenceCoverage="9.09" branchCoverage="8.11" maxCyclomaticComplexity="5" minCyclomaticComplexity="1" maxCrapScore="30" minCrapScore="1" visitedClasses="1" numClasses="14" visitedMethods="3" numMethods="44" />
+  <Summary numSequencePoints="272" visitedSequencePoints="51" numBranchPoints="76" visitedBranchPoints="20" sequenceCoverage="18.75" branchCoverage="26.32" maxCyclomaticComplexity="5" minCyclomaticComplexity="1" maxCrapScore="20" minCrapScore="1" visitedClasses="5" numClasses="14" visitedMethods="9" numMethods="46" />
   <Modules>
     <Module skippedDueTo="Filter" hash="83-FA-75-0A-A9-E2-8A-BB-13-33-45-9D-42-E2-70-A8-84-69-0F-90">
       <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_64\mscorlib\v4.0_4.0.0.0__b77a5c561934e089\mscorlib.dll</ModulePath>
@@ -152,16 +152,16 @@
       <ModuleName>System.Web</ModuleName>
       <Classes />
     </Module>
-    <Module skippedDueTo="Filter" hash="5A-6B-0D-4B-AA-E4-F5-AD-D4-CD-FA-D3-24-3D-17-05-77-C7-20-D0">
+    <Module skippedDueTo="Filter" hash="29-0A-82-67-F3-6A-6B-67-8D-0E-3D-69-2A-C4-C6-DA-0D-70-32-FD">
       <ModulePath>C:\Projects\CrawlerExample\Bin\Crawler.Tests.dll</ModulePath>
-      <ModuleTime>2019-08-10T21:30:54.7735365Z</ModuleTime>
+      <ModuleTime>2019-08-10T23:05:26.65584Z</ModuleTime>
       <ModuleName>Crawler.Tests</ModuleName>
       <Classes />
     </Module>
-    <Module hash="82-F8-D3-FC-48-4C-52-A5-59-12-C8-AC-0F-00-9D-1C-17-EB-28-91">
-      <Summary numSequencePoints="264" visitedSequencePoints="24" numBranchPoints="74" visitedBranchPoints="6" sequenceCoverage="9.09" branchCoverage="8.11" maxCyclomaticComplexity="5" minCyclomaticComplexity="1" maxCrapScore="30" minCrapScore="1" visitedClasses="1" numClasses="14" visitedMethods="3" numMethods="44" />
+    <Module hash="F7-1C-E7-30-32-DC-3A-BA-3F-89-11-42-1B-04-F7-3D-91-AA-85-B2">
+      <Summary numSequencePoints="272" visitedSequencePoints="51" numBranchPoints="76" visitedBranchPoints="20" sequenceCoverage="18.75" branchCoverage="26.32" maxCyclomaticComplexity="5" minCyclomaticComplexity="1" maxCrapScore="20" minCrapScore="1" visitedClasses="5" numClasses="14" visitedMethods="9" numMethods="46" />
       <ModulePath>C:\Projects\CrawlerExample\Bin\Crawler.Logics.dll</ModulePath>
-      <ModuleTime>2019-08-10T21:30:53.8535928Z</ModuleTime>
+      <ModuleTime>2019-08-10T23:05:26.3472331Z</ModuleTime>
       <ModuleName>Crawler.Logics</ModuleName>
       <Files>
         <File uid="1" fullPath="C:\Projects\CrawlerExample\Crawler.Logics\CrawlerLogics.cs" />
@@ -503,7 +503,7 @@
           <Methods>
             <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="true" isGetter="false" isSetter="false">
               <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
-              <MetadataToken>100663344</MetadataToken>
+              <MetadataToken>100663346</MetadataToken>
               <Name>System.Void Crawler.Logics.SitePageObjects.DownloadablePageObject/&lt;&gt;c::.cctor()</Name>
               <SequencePoints />
               <BranchPoints />
@@ -511,7 +511,7 @@
             </Method>
             <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
               <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
-              <MetadataToken>100663345</MetadataToken>
+              <MetadataToken>100663347</MetadataToken>
               <Name>System.Void Crawler.Logics.SitePageObjects.DownloadablePageObject/&lt;&gt;c::.ctor()</Name>
               <SequencePoints />
               <BranchPoints />
@@ -519,7 +519,7 @@
             </Method>
             <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
               <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
-              <MetadataToken>100663346</MetadataToken>
+              <MetadataToken>100663348</MetadataToken>
               <Name>System.Boolean Crawler.Logics.SitePageObjects.DownloadablePageObject/&lt;&gt;c::&lt;WaitForPreparingForDownloadModalToClose&gt;b__9_0(OpenQA.Selenium.IWebElement)</Name>
               <FileRef uid="4" />
               <SequencePoints>
@@ -731,7 +731,7 @@
           <Methods>
             <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="true" isGetter="false" isSetter="false">
               <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
-              <MetadataToken>100663347</MetadataToken>
+              <MetadataToken>100663349</MetadataToken>
               <Name>System.Void Crawler.Logics.SitePageObjects.MainPageObject/&lt;&gt;c::.cctor()</Name>
               <SequencePoints />
               <BranchPoints />
@@ -739,7 +739,7 @@
             </Method>
             <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
               <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
-              <MetadataToken>100663348</MetadataToken>
+              <MetadataToken>100663350</MetadataToken>
               <Name>System.Void Crawler.Logics.SitePageObjects.MainPageObject/&lt;&gt;c::.ctor()</Name>
               <SequencePoints />
               <BranchPoints />
@@ -747,7 +747,7 @@
             </Method>
             <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
               <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
-              <MetadataToken>100663349</MetadataToken>
+              <MetadataToken>100663351</MetadataToken>
               <Name>System.Boolean Crawler.Logics.SitePageObjects.MainPageObject/&lt;&gt;c::&lt;CloseModalIfNeeded&gt;b__15_0(OpenQA.Selenium.IWebElement)</Name>
               <FileRef uid="6" />
               <SequencePoints>
@@ -759,21 +759,21 @@
           </Methods>
         </Class>
         <Class>
-          <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="1" />
+          <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
           <FullName>Crawler.Logics.Exceptions.CrawlerAuthenticationException</FullName>
           <Methods>
-            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
-              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
               <MetadataToken>100663326</MetadataToken>
               <Name>System.Void Crawler.Logics.Exceptions.CrawlerAuthenticationException::.ctor(System.String)</Name>
               <FileRef uid="8" />
               <SequencePoints>
-                <SequencePoint vc="0" uspid="202" ordinal="0" offset="0" sl="7" sc="65" el="7" ec="78" bec="0" bev="0" fileid="8" />
-                <SequencePoint vc="0" uspid="203" ordinal="1" offset="8" sl="8" sc="9" el="8" ec="10" bec="0" bev="0" fileid="8" />
-                <SequencePoint vc="0" uspid="204" ordinal="2" offset="9" sl="9" sc="9" el="9" ec="10" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="2" uspid="202" ordinal="0" offset="0" sl="7" sc="65" el="7" ec="78" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="2" uspid="203" ordinal="1" offset="8" sl="8" sc="9" el="8" ec="10" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="2" uspid="204" ordinal="2" offset="9" sl="9" sc="9" el="9" ec="10" bec="0" bev="0" fileid="8" />
               </SequencePoints>
               <BranchPoints />
-              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="202" ordinal="0" offset="0" sl="7" sc="65" el="7" ec="78" bec="0" bev="0" fileid="8" />
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="202" ordinal="0" offset="0" sl="7" sc="65" el="7" ec="78" bec="0" bev="0" fileid="8" />
             </Method>
           </Methods>
         </Class>
@@ -901,169 +901,197 @@
           </Methods>
         </Class>
         <Class>
-          <Summary numSequencePoints="40" visitedSequencePoints="0" numBranchPoints="14" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="5" minCyclomaticComplexity="1" maxCrapScore="30" minCrapScore="2" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="4" />
+          <Summary numSequencePoints="48" visitedSequencePoints="22" numBranchPoints="16" visitedBranchPoints="11" sequenceCoverage="45.83" branchCoverage="68.75" maxCyclomaticComplexity="5" minCyclomaticComplexity="1" maxCrapScore="6" minCrapScore="1" visitedClasses="1" numClasses="1" visitedMethods="3" numMethods="6" />
           <FullName>Crawler.Logics.Authentication.MailService</FullName>
           <Methods>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663338</MetadataToken>
+              <Name>System.Void Crawler.Logics.Authentication.MailService::.ctor(MailKit.IMailStore)</Name>
+              <FileRef uid="11" />
+              <SequencePoints>
+                <SequencePoint vc="3" uspid="248" ordinal="0" offset="0" sl="17" sc="9" el="17" ec="52" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="3" uspid="249" ordinal="1" offset="7" sl="18" sc="9" el="18" ec="10" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="3" uspid="250" ordinal="2" offset="8" sl="19" sc="13" el="19" ec="38" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="3" uspid="251" ordinal="3" offset="15" sl="20" sc="9" el="20" ec="10" bec="0" bev="0" fileid="11" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="3" uspid="248" ordinal="0" offset="0" sl="17" sc="9" el="17" ec="52" bec="0" bev="0" fileid="11" />
+            </Method>
             <Method visited="false" cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="0" branchCoverage="0" crapScore="6" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
               <Summary numSequencePoints="13" visitedSequencePoints="0" numBranchPoints="3" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" maxCrapScore="6" minCrapScore="6" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
-              <MetadataToken>100663338</MetadataToken>
+              <MetadataToken>100663339</MetadataToken>
               <Name>System.Void Crawler.Logics.Authentication.MailService::.ctor()</Name>
               <FileRef uid="11" />
               <SequencePoints>
-                <SequencePoint vc="0" uspid="248" ordinal="0" offset="0" sl="22" sc="9" el="22" ec="29" bec="0" bev="0" fileid="11" />
-                <SequencePoint vc="0" uspid="249" ordinal="1" offset="7" sl="23" sc="9" el="23" ec="10" bec="0" bev="0" fileid="11" />
-                <SequencePoint vc="0" uspid="250" ordinal="2" offset="8" sl="24" sc="13" el="24" ec="71" bec="0" bev="0" fileid="11" />
-                <SequencePoint vc="0" uspid="251" ordinal="3" offset="29" sl="25" sc="13" el="25" ec="82" bec="0" bev="0" fileid="11" />
-                <SequencePoint vc="0" uspid="252" ordinal="4" offset="55" sl="26" sc="13" el="26" ec="87" bec="0" bev="0" fileid="11" />
-                <SequencePoint vc="0" uspid="253" ordinal="5" offset="81" sl="27" sc="13" el="27" ec="71" bec="0" bev="0" fileid="11" />
-                <SequencePoint vc="0" uspid="254" ordinal="6" offset="102" sl="28" sc="13" el="28" ec="79" bec="0" bev="0" fileid="11" />
-                <SequencePoint vc="0" uspid="255" ordinal="7" offset="123" sl="30" sc="13" el="30" ec="76" bec="0" bev="0" fileid="11" />
-                <SequencePoint vc="0" uspid="256" ordinal="8" offset="145" sl="31" sc="13" el="31" ec="83" bec="2" bev="0" fileid="11" />
-                <SequencePoint vc="0" uspid="257" ordinal="9" offset="188" sl="32" sc="13" el="32" ec="67" bec="0" bev="0" fileid="11" />
-                <SequencePoint vc="0" uspid="258" ordinal="10" offset="227" sl="33" sc="13" el="33" ec="67" bec="0" bev="0" fileid="11" />
-                <SequencePoint vc="0" uspid="259" ordinal="11" offset="249" sl="34" sc="13" el="34" ec="63" bec="0" bev="0" fileid="11" />
-                <SequencePoint vc="0" uspid="260" ordinal="12" offset="282" sl="35" sc="9" el="35" ec="10" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="0" uspid="252" ordinal="0" offset="0" sl="22" sc="9" el="22" ec="29" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="0" uspid="253" ordinal="1" offset="7" sl="23" sc="9" el="23" ec="10" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="0" uspid="254" ordinal="2" offset="8" sl="24" sc="13" el="24" ec="75" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="0" uspid="255" ordinal="3" offset="24" sl="25" sc="13" el="25" ec="86" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="0" uspid="256" ordinal="4" offset="45" sl="26" sc="13" el="26" ec="91" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="0" uspid="257" ordinal="5" offset="66" sl="27" sc="13" el="27" ec="75" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="0" uspid="258" ordinal="6" offset="82" sl="28" sc="13" el="28" ec="83" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="0" uspid="259" ordinal="7" offset="99" sl="30" sc="13" el="30" ec="77" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="0" uspid="260" ordinal="8" offset="121" sl="31" sc="13" el="31" ec="84" bec="2" bev="0" fileid="11" />
+                <SequencePoint vc="0" uspid="261" ordinal="9" offset="164" sl="32" sc="13" el="32" ec="68" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="0" uspid="262" ordinal="10" offset="189" sl="33" sc="13" el="33" ec="68" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="0" uspid="263" ordinal="11" offset="211" sl="34" sc="13" el="34" ec="64" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="0" uspid="264" ordinal="12" offset="236" sl="35" sc="9" el="35" ec="10" bec="0" bev="0" fileid="11" />
               </SequencePoints>
               <BranchPoints>
-                <BranchPoint vc="0" uspid="261" ordinal="0" offset="157" sl="31" path="0" offsetend="159" fileid="11" />
-                <BranchPoint vc="0" uspid="262" ordinal="1" offset="157" sl="31" path="1" offsetend="182" fileid="11" />
+                <BranchPoint vc="0" uspid="265" ordinal="0" offset="133" sl="31" path="0" offsetend="135" fileid="11" />
+                <BranchPoint vc="0" uspid="266" ordinal="1" offset="133" sl="31" path="1" offsetend="158" fileid="11" />
               </BranchPoints>
-              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="248" ordinal="0" offset="0" sl="22" sc="9" el="22" ec="29" bec="0" bev="0" fileid="11" />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="252" ordinal="0" offset="0" sl="22" sc="9" el="22" ec="29" bec="0" bev="0" fileid="11" />
             </Method>
-            <Method visited="false" cyclomaticComplexity="5" nPathComplexity="16" sequenceCoverage="0" branchCoverage="0" crapScore="30" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
-              <Summary numSequencePoints="17" visitedSequencePoints="0" numBranchPoints="9" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="5" minCyclomaticComplexity="5" maxCrapScore="30" minCrapScore="30" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
-              <MetadataToken>100663339</MetadataToken>
+            <Method visited="true" cyclomaticComplexity="5" nPathComplexity="16" sequenceCoverage="100" branchCoverage="100" crapScore="5" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="17" visitedSequencePoints="17" numBranchPoints="9" visitedBranchPoints="9" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="5" minCyclomaticComplexity="5" maxCrapScore="5" minCrapScore="5" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663340</MetadataToken>
               <Name>System.String Crawler.Logics.Authentication.MailService::FindRecentAuthLink()</Name>
               <FileRef uid="11" />
               <SequencePoints>
-                <SequencePoint vc="0" uspid="263" ordinal="0" offset="6" sl="37" sc="44" el="37" ec="45" bec="0" bev="0" fileid="11" />
-                <SequencePoint vc="0" uspid="264" ordinal="1" offset="7" sl="38" sc="13" el="38" ec="42" bec="0" bev="0" fileid="11" />
-                <SequencePoint vc="0" uspid="265" ordinal="2" offset="24" sl="39" sc="13" el="39" ec="47" bec="0" bev="0" fileid="11" />
-                <SequencePoint vc="0" uspid="266" ordinal="3" offset="47" sl="41" sc="13" el="41" ec="134" bec="0" bev="0" fileid="11" />
-                <SequencePoint vc="0" uspid="267" ordinal="4" offset="94" sl="42" sc="13" el="42" ec="36" bec="2" bev="0" fileid="11" />
-                <SequencePoint vc="0" uspid="268" ordinal="5" offset="109" sl="43" sc="13" el="43" ec="14" bec="0" bev="0" fileid="11" />
-                <SequencePoint vc="0" uspid="269" ordinal="6" offset="110" sl="44" sc="17" el="44" ec="147" bec="0" bev="0" fileid="11" />
-                <SequencePoint vc="0" uspid="270" ordinal="7" offset="175" sl="45" sc="13" el="45" ec="14" bec="0" bev="0" fileid="11" />
-                <SequencePoint vc="0" uspid="271" ordinal="8" offset="176" sl="47" sc="13" el="49" ec="74" bec="2" bev="0" fileid="11" />
-                <SequencePoint vc="0" uspid="272" ordinal="9" offset="236" sl="51" sc="13" el="51" ec="51" bec="2" bev="0" fileid="11" />
-                <SequencePoint vc="0" uspid="273" ordinal="10" offset="246" sl="51" sc="52" el="51" ec="140" bec="0" bev="0" fileid="11" />
-                <SequencePoint vc="0" uspid="274" ordinal="11" offset="257" sl="53" sc="13" el="53" ec="81" bec="0" bev="0" fileid="11" />
-                <SequencePoint vc="0" uspid="275" ordinal="12" offset="274" sl="55" sc="13" el="55" ec="32" bec="2" bev="0" fileid="11" />
-                <SequencePoint vc="0" uspid="276" ordinal="13" offset="289" sl="56" sc="13" el="56" ec="14" bec="0" bev="0" fileid="11" />
-                <SequencePoint vc="0" uspid="277" ordinal="14" offset="290" sl="57" sc="17" el="57" ec="111" bec="0" bev="0" fileid="11" />
-                <SequencePoint vc="0" uspid="278" ordinal="15" offset="301" sl="60" sc="13" el="60" ec="32" bec="0" bev="0" fileid="11" />
-                <SequencePoint vc="0" uspid="279" ordinal="16" offset="311" sl="61" sc="9" el="61" ec="10" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="3" uspid="267" ordinal="0" offset="6" sl="37" sc="44" el="37" ec="45" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="3" uspid="268" ordinal="1" offset="7" sl="38" sc="13" el="38" ec="43" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="3" uspid="269" ordinal="2" offset="24" sl="39" sc="13" el="39" ec="47" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="3" uspid="270" ordinal="3" offset="47" sl="41" sc="13" el="41" ec="134" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="3" uspid="271" ordinal="4" offset="94" sl="42" sc="13" el="42" ec="36" bec="2" bev="2" fileid="11" />
+                <SequencePoint vc="1" uspid="272" ordinal="5" offset="109" sl="43" sc="13" el="43" ec="14" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="1" uspid="273" ordinal="6" offset="110" sl="44" sc="17" el="44" ec="147" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="1" uspid="274" ordinal="7" offset="175" sl="45" sc="13" el="45" ec="14" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="3" uspid="275" ordinal="8" offset="176" sl="47" sc="13" el="49" ec="74" bec="2" bev="2" fileid="11" />
+                <SequencePoint vc="3" uspid="276" ordinal="9" offset="236" sl="51" sc="13" el="51" ec="51" bec="2" bev="2" fileid="11" />
+                <SequencePoint vc="1" uspid="277" ordinal="10" offset="246" sl="51" sc="52" el="51" ec="140" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="2" uspid="278" ordinal="11" offset="257" sl="53" sc="13" el="53" ec="81" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="2" uspid="279" ordinal="12" offset="274" sl="55" sc="13" el="55" ec="32" bec="2" bev="2" fileid="11" />
+                <SequencePoint vc="1" uspid="280" ordinal="13" offset="289" sl="56" sc="13" el="56" ec="14" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="1" uspid="281" ordinal="14" offset="290" sl="57" sc="17" el="57" ec="111" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="1" uspid="282" ordinal="15" offset="301" sl="60" sc="13" el="60" ec="32" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="1" uspid="283" ordinal="16" offset="311" sl="61" sc="9" el="61" ec="10" bec="0" bev="0" fileid="11" />
               </SequencePoints>
               <BranchPoints>
-                <BranchPoint vc="0" uspid="280" ordinal="0" offset="107" sl="42" path="0" offsetend="109" fileid="11" />
-                <BranchPoint vc="0" uspid="281" ordinal="1" offset="107" sl="42" path="1" offsetend="176" fileid="11" />
-                <BranchPoint vc="0" uspid="282" ordinal="2" offset="200" sl="47" path="0" offsetend="202" fileid="11" />
-                <BranchPoint vc="0" uspid="283" ordinal="3" offset="200" sl="47" path="1" offsetend="225" fileid="11" />
-                <BranchPoint vc="0" uspid="284" ordinal="4" offset="244" sl="51" path="0" offsetend="246" fileid="11" />
-                <BranchPoint vc="0" uspid="285" ordinal="5" offset="244" sl="51" path="1" offsetend="257" fileid="11" />
-                <BranchPoint vc="0" uspid="286" ordinal="6" offset="287" sl="55" path="0" offsetend="289" fileid="11" />
-                <BranchPoint vc="0" uspid="287" ordinal="7" offset="287" sl="55" path="1" offsetend="301" fileid="11" />
+                <BranchPoint vc="1" uspid="284" ordinal="0" offset="107" sl="42" path="0" offsetend="109" fileid="11" />
+                <BranchPoint vc="2" uspid="285" ordinal="1" offset="107" sl="42" path="1" offsetend="176" fileid="11" />
+                <BranchPoint vc="1" uspid="286" ordinal="2" offset="200" sl="47" path="0" offsetend="202" fileid="11" />
+                <BranchPoint vc="2" uspid="287" ordinal="3" offset="200" sl="47" path="1" offsetend="225" fileid="11" />
+                <BranchPoint vc="1" uspid="288" ordinal="4" offset="244" sl="51" path="0" offsetend="246" fileid="11" />
+                <BranchPoint vc="2" uspid="289" ordinal="5" offset="244" sl="51" path="1" offsetend="257" fileid="11" />
+                <BranchPoint vc="1" uspid="290" ordinal="6" offset="287" sl="55" path="0" offsetend="289" fileid="11" />
+                <BranchPoint vc="1" uspid="291" ordinal="7" offset="287" sl="55" path="1" offsetend="301" fileid="11" />
               </BranchPoints>
-              <MethodPoint vc="0" uspid="288" ordinal="0" offset="0" />
+              <MethodPoint vc="3" uspid="292" ordinal="0" offset="0" />
             </Method>
             <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
               <Summary numSequencePoints="9" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
-              <MetadataToken>100663340</MetadataToken>
+              <MetadataToken>100663341</MetadataToken>
+              <Name>System.Void Crawler.Logics.Authentication.MailService::Dispose(System.Boolean)</Name>
+              <FileRef uid="11" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="293" ordinal="0" offset="0" sl="64" sc="9" el="64" ec="10" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="0" uspid="294" ordinal="1" offset="1" sl="66" sc="13" el="66" ec="14" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="0" uspid="295" ordinal="2" offset="2" sl="67" sc="17" el="67" ec="46" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="0" uspid="296" ordinal="3" offset="24" sl="68" sc="13" el="68" ec="14" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="0" uspid="297" ordinal="4" offset="27" sl="69" sc="13" el="69" ec="30" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="0" uspid="298" ordinal="5" offset="28" sl="70" sc="13" el="70" ec="14" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="0" uspid="299" ordinal="6" offset="29" sl="72" sc="13" el="72" ec="14" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="0" uspid="300" ordinal="7" offset="32" sl="74" sc="13" el="74" ec="35" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="0" uspid="301" ordinal="8" offset="44" sl="75" sc="9" el="75" ec="10" bec="0" bev="0" fileid="11" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="293" ordinal="0" offset="0" sl="64" sc="9" el="64" ec="10" bec="0" bev="0" fileid="11" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663342</MetadataToken>
               <Name>System.Void Crawler.Logics.Authentication.MailService::Dispose()</Name>
               <FileRef uid="11" />
               <SequencePoints>
-                <SequencePoint vc="0" uspid="289" ordinal="0" offset="0" sl="64" sc="9" el="64" ec="10" bec="0" bev="0" fileid="11" />
-                <SequencePoint vc="0" uspid="290" ordinal="1" offset="1" sl="65" sc="17" el="65" ec="18" bec="0" bev="0" fileid="11" />
-                <SequencePoint vc="0" uspid="291" ordinal="2" offset="2" sl="66" sc="17" el="66" ec="45" bec="0" bev="0" fileid="11" />
-                <SequencePoint vc="0" uspid="292" ordinal="3" offset="24" sl="67" sc="13" el="67" ec="14" bec="0" bev="0" fileid="11" />
-                <SequencePoint vc="0" uspid="293" ordinal="4" offset="27" sl="68" sc="13" el="68" ec="30" bec="0" bev="0" fileid="11" />
-                <SequencePoint vc="0" uspid="294" ordinal="5" offset="28" sl="68" sc="31" el="68" ec="32" bec="0" bev="0" fileid="11" />
-                <SequencePoint vc="0" uspid="295" ordinal="6" offset="29" sl="70" sc="13" el="70" ec="14" bec="0" bev="0" fileid="11" />
-                <SequencePoint vc="0" uspid="296" ordinal="7" offset="32" sl="72" sc="13" el="72" ec="34" bec="0" bev="0" fileid="11" />
-                <SequencePoint vc="0" uspid="297" ordinal="8" offset="44" sl="73" sc="9" el="73" ec="10" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="0" uspid="302" ordinal="0" offset="0" sl="78" sc="9" el="78" ec="10" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="0" uspid="303" ordinal="1" offset="1" sl="79" sc="13" el="79" ec="27" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="0" uspid="304" ordinal="2" offset="9" sl="80" sc="13" el="80" ec="39" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="0" uspid="305" ordinal="3" offset="16" sl="81" sc="9" el="81" ec="10" bec="0" bev="0" fileid="11" />
               </SequencePoints>
               <BranchPoints />
-              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="289" ordinal="0" offset="0" sl="64" sc="9" el="64" ec="10" bec="0" bev="0" fileid="11" />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="302" ordinal="0" offset="0" sl="78" sc="9" el="78" ec="10" bec="0" bev="0" fileid="11" />
             </Method>
-            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="true" isGetter="false" isSetter="false">
-              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
-              <MetadataToken>100663341</MetadataToken>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="true" isStatic="true" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663343</MetadataToken>
               <Name>System.Void Crawler.Logics.Authentication.MailService::.cctor()</Name>
               <FileRef uid="11" />
               <SequencePoints>
-                <SequencePoint vc="0" uspid="298" ordinal="0" offset="0" sl="14" sc="9" el="14" ec="99" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="1" uspid="306" ordinal="0" offset="0" sl="14" sc="9" el="14" ec="118" bec="0" bev="0" fileid="11" />
               </SequencePoints>
               <BranchPoints />
-              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="298" ordinal="0" offset="0" sl="14" sc="9" el="14" ec="99" bec="0" bev="0" fileid="11" />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="306" ordinal="0" offset="0" sl="14" sc="9" el="14" ec="118" bec="0" bev="0" fileid="11" />
             </Method>
           </Methods>
         </Class>
         <Class>
-          <Summary numSequencePoints="2" visitedSequencePoints="0" numBranchPoints="2" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="2" />
+          <Summary numSequencePoints="2" visitedSequencePoints="1" numBranchPoints="2" visitedBranchPoints="1" sequenceCoverage="50" branchCoverage="50" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="1" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="2" />
           <FullName>Crawler.Logics.Authentication.MailService/&lt;&gt;c</FullName>
           <Methods>
             <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="true" isGetter="false" isSetter="false">
               <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
-              <MetadataToken>100663350</MetadataToken>
+              <MetadataToken>100663352</MetadataToken>
               <Name>System.Void Crawler.Logics.Authentication.MailService/&lt;&gt;c::.cctor()</Name>
               <SequencePoints />
               <BranchPoints />
-              <MethodPoint vc="0" uspid="299" ordinal="0" offset="0" />
+              <MethodPoint vc="0" uspid="307" ordinal="0" offset="0" />
             </Method>
             <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
               <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
-              <MetadataToken>100663351</MetadataToken>
+              <MetadataToken>100663353</MetadataToken>
               <Name>System.Void Crawler.Logics.Authentication.MailService/&lt;&gt;c::.ctor()</Name>
               <SequencePoints />
               <BranchPoints />
-              <MethodPoint vc="0" uspid="300" ordinal="0" offset="0" />
+              <MethodPoint vc="0" uspid="308" ordinal="0" offset="0" />
             </Method>
             <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
               <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
-              <MetadataToken>100663352</MetadataToken>
-              <Name>System.Boolean Crawler.Logics.Authentication.MailService/&lt;&gt;c::&lt;.ctor&gt;b__7_0(System.Object,System.Security.Cryptography.X509Certificates.X509Certificate,System.Security.Cryptography.X509Certificates.X509Chain,System.Net.Security.SslPolicyErrors)</Name>
+              <MetadataToken>100663354</MetadataToken>
+              <Name>System.Boolean Crawler.Logics.Authentication.MailService/&lt;&gt;c::&lt;.ctor&gt;b__3_0(System.Object,System.Security.Cryptography.X509Certificates.X509Certificate,System.Security.Cryptography.X509Certificates.X509Chain,System.Net.Security.SslPolicyErrors)</Name>
               <FileRef uid="11" />
               <SequencePoints>
-                <SequencePoint vc="0" uspid="301" ordinal="0" offset="0" sl="31" sc="78" el="31" ec="82" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="0" uspid="309" ordinal="0" offset="0" sl="31" sc="79" el="31" ec="83" bec="0" bev="0" fileid="11" />
               </SequencePoints>
               <BranchPoints />
-              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="301" ordinal="0" offset="0" sl="31" sc="78" el="31" ec="82" bec="0" bev="0" fileid="11" />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="309" ordinal="0" offset="0" sl="31" sc="79" el="31" ec="83" bec="0" bev="0" fileid="11" />
             </Method>
-            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
-              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
-              <MetadataToken>100663353</MetadataToken>
-              <Name>System.DateTimeOffset Crawler.Logics.Authentication.MailService/&lt;&gt;c::&lt;FindRecentAuthLink&gt;b__8_1(MimeKit.MimeMessage)</Name>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663355</MetadataToken>
+              <Name>System.DateTimeOffset Crawler.Logics.Authentication.MailService/&lt;&gt;c::&lt;FindRecentAuthLink&gt;b__4_1(MimeKit.MimeMessage)</Name>
               <FileRef uid="11" />
               <SequencePoints>
-                <SequencePoint vc="0" uspid="302" ordinal="0" offset="0" sl="48" sc="80" el="48" ec="86" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="2" uspid="310" ordinal="0" offset="0" sl="48" sc="80" el="48" ec="86" bec="0" bev="0" fileid="11" />
               </SequencePoints>
               <BranchPoints />
-              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="302" ordinal="0" offset="0" sl="48" sc="80" el="48" ec="86" bec="0" bev="0" fileid="11" />
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="310" ordinal="0" offset="0" sl="48" sc="80" el="48" ec="86" bec="0" bev="0" fileid="11" />
             </Method>
           </Methods>
         </Class>
         <Class>
-          <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="1" />
-          <FullName>Crawler.Logics.Authentication.MailService/&lt;&gt;c__DisplayClass8_0</FullName>
+          <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="1" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <FullName>Crawler.Logics.Authentication.MailService/&lt;&gt;c__DisplayClass4_0</FullName>
           <Methods>
             <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
               <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
-              <MetadataToken>100663354</MetadataToken>
-              <Name>System.Void Crawler.Logics.Authentication.MailService/&lt;&gt;c__DisplayClass8_0::.ctor()</Name>
+              <MetadataToken>100663356</MetadataToken>
+              <Name>System.Void Crawler.Logics.Authentication.MailService/&lt;&gt;c__DisplayClass4_0::.ctor()</Name>
               <SequencePoints />
               <BranchPoints />
-              <MethodPoint vc="0" uspid="303" ordinal="0" offset="0" />
+              <MethodPoint vc="0" uspid="311" ordinal="0" offset="0" />
             </Method>
-            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
-              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
-              <MetadataToken>100663355</MetadataToken>
-              <Name>MimeKit.MimeMessage Crawler.Logics.Authentication.MailService/&lt;&gt;c__DisplayClass8_0::&lt;FindRecentAuthLink&gt;b__0(MailKit.UniqueId)</Name>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663357</MetadataToken>
+              <Name>MimeKit.MimeMessage Crawler.Logics.Authentication.MailService/&lt;&gt;c__DisplayClass4_0::&lt;FindRecentAuthLink&gt;b__0(MailKit.UniqueId)</Name>
               <FileRef uid="11" />
               <SequencePoints>
-                <SequencePoint vc="0" uspid="304" ordinal="0" offset="0" sl="47" sc="72" el="47" ec="94" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="2" uspid="312" ordinal="0" offset="0" sl="47" sc="72" el="47" ec="94" bec="0" bev="0" fileid="11" />
               </SequencePoints>
               <BranchPoints />
-              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="304" ordinal="0" offset="0" sl="47" sc="72" el="47" ec="94" bec="0" bev="0" fileid="11" />
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="312" ordinal="0" offset="0" sl="47" sc="72" el="47" ec="94" bec="0" bev="0" fileid="11" />
             </Method>
           </Methods>
         </Class>
@@ -1073,28 +1101,34 @@
           <Methods>
             <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
               <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
-              <MetadataToken>100663342</MetadataToken>
+              <MetadataToken>100663344</MetadataToken>
               <Name>Crawler.Logics.Authentication.IMailService Crawler.Logics.Authentication.MailServiceFactory::CreateMailService()</Name>
               <FileRef uid="14" />
               <SequencePoints>
-                <SequencePoint vc="0" uspid="305" ordinal="0" offset="0" sl="6" sc="9" el="6" ec="10" bec="0" bev="0" fileid="14" />
-                <SequencePoint vc="0" uspid="306" ordinal="1" offset="1" sl="7" sc="13" el="7" ec="38" bec="0" bev="0" fileid="14" />
-                <SequencePoint vc="0" uspid="307" ordinal="2" offset="9" sl="8" sc="9" el="8" ec="10" bec="0" bev="0" fileid="14" />
+                <SequencePoint vc="0" uspid="313" ordinal="0" offset="0" sl="6" sc="9" el="6" ec="10" bec="0" bev="0" fileid="14" />
+                <SequencePoint vc="0" uspid="314" ordinal="1" offset="1" sl="7" sc="13" el="7" ec="38" bec="0" bev="0" fileid="14" />
+                <SequencePoint vc="0" uspid="315" ordinal="2" offset="9" sl="8" sc="9" el="8" ec="10" bec="0" bev="0" fileid="14" />
               </SequencePoints>
               <BranchPoints />
-              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="305" ordinal="0" offset="0" sl="6" sc="9" el="6" ec="10" bec="0" bev="0" fileid="14" />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="313" ordinal="0" offset="0" sl="6" sc="9" el="6" ec="10" bec="0" bev="0" fileid="14" />
             </Method>
             <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
               <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
-              <MetadataToken>100663343</MetadataToken>
+              <MetadataToken>100663345</MetadataToken>
               <Name>System.Void Crawler.Logics.Authentication.MailServiceFactory::.ctor()</Name>
               <SequencePoints />
               <BranchPoints />
-              <MethodPoint vc="0" uspid="308" ordinal="0" offset="0" />
+              <MethodPoint vc="0" uspid="316" ordinal="0" offset="0" />
             </Method>
           </Methods>
         </Class>
       </Classes>
+    </Module>
+    <Module skippedDueTo="Filter" hash="6C-86-66-13-1F-03-3E-5B-4F-2E-74-25-BF-57-6B-4E-8A-26-AA-44">
+      <ModulePath>C:\Projects\CrawlerExample\Bin\MailKit.dll</ModulePath>
+      <ModuleTime>2019-06-11T10:00:52Z</ModuleTime>
+      <ModuleName>MailKit</ModuleName>
+      <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="C9-90-56-C8-34-0E-96-2A-07-09-EA-81-19-89-AB-9B-B6-6C-C4-D4">
       <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll</ModulePath>
@@ -1106,6 +1140,30 @@
       <ModulePath>C:\Projects\CrawlerExample\Bin\Rhino.Mocks.dll</ModulePath>
       <ModuleTime>2012-03-18T14:36:48Z</ModuleTime>
       <ModuleName>Rhino.Mocks</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="">
+      <ModulePath>RefEmit_InMemoryManifestModule</ModulePath>
+      <ModuleTime>0001-01-01T00:00:00</ModuleTime>
+      <ModuleName>DynamicProxyGenAssembly2</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="">
+      <ModulePath>RefEmit_InMemoryManifestModule</ModulePath>
+      <ModuleTime>0001-01-01T00:00:00</ModuleTime>
+      <ModuleName>DynamicProxyGenAssembly2</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="70-44-CF-4D-E7-82-6D-03-AE-B1-B9-2D-9F-BD-A2-D3-65-60-91-E3">
+      <ModulePath>C:\Projects\CrawlerExample\Bin\MimeKit.dll</ModulePath>
+      <ModuleTime>2019-06-11T09:27:30Z</ModuleTime>
+      <ModuleName>MimeKit</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="">
+      <ModulePath>RefEmit_InMemoryManifestModule</ModulePath>
+      <ModuleTime>0001-01-01T00:00:00</ModuleTime>
+      <ModuleName>DynamicProxyGenAssembly2</ModuleName>
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="">

@@ -53,4 +53,4 @@ Task("RunTestsWithSonar")
     .IsDependentOn("RunTests")
     .IsDependentOn("SonarEnd");
 
-RunTarget("RunTests");
+RunTarget("RunTestsWithSonar");
