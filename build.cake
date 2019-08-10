@@ -1,5 +1,6 @@
 #tool "nuget:?package=NUnit.ConsoleRunner"
 #tool nuget:?package=MSBuild.SonarQube.Runner.Tool
+#tool "nuget:?package=OpenCover"
 #addin nuget:?package=Cake.Sonar
 
 var sonarAuthKey = Argument("SonarAuthKey", "");
@@ -17,7 +18,13 @@ Task("Compile")
 
 Task("RunTests")
     .Does(() => {
-        NUnit3("Bin\\*.Tests.dll");
+        OpenCover(tool => {
+                tool.NUnit3("Bin\\*.Tests.dll");
+            },
+            new FilePath("./openCoverResult.xml"),
+            new OpenCoverSettings()
+                .WithFilter("+[Crawler*]*")
+                .WithFilter("-[Crawler.Tests]*"));
     });
  
 Task("SonarBegin")
@@ -28,7 +35,8 @@ Task("SonarBegin")
         Name = "CrawlerExample",
         Verbose = true,
         Login = sonarAuthKey,
-       Organization = "sergeyo"
+        Organization = "sergeyo",
+        OpenCoverReportsPath = "./openCoverResult.xml"
      });
   });
 
@@ -45,4 +53,4 @@ Task("RunTestsWithSonar")
     .IsDependentOn("RunTests")
     .IsDependentOn("SonarEnd");
 
-RunTarget("RunTestsWithSonar");
+RunTarget("RunTests");

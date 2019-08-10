@@ -11,8 +11,13 @@ namespace Crawler.Logics.Authentication
 {
     public class MailService : IMailService
     {
-        private static readonly Regex loginUrlRegex = new Regex(@"https://site.com/User/Login/?");
-        private readonly IMailStore clientImap;
+        private static readonly Regex loginUrlRegex = new Regex(@"https://site.com/User/Login/session=[A-Za-z0-9]+", RegexOptions.Compiled);
+        private readonly IMailStore _clientImap;
+
+        internal MailService(IMailStore clientImap)
+        {
+            _clientImap = clientImap;
+        }
 
         public MailService()
         {
@@ -22,15 +27,15 @@ namespace Crawler.Logics.Authentication
             var mail_user = ConfigurationManager.AppSettings["mail_user"];
             var mail_password = ConfigurationManager.AppSettings["mail_password"];
 
-            clientImap = new ImapClient(new ProtocolLogger("maillog.txt"));
-            clientImap.ServerCertificateValidationCallback = (s, c, h, e) => true;
-            clientImap.Connect(mail_host, mail_port, mail_usessl);
-            clientImap.AuthenticationMechanisms.Remove("XOAUTH2");
-            clientImap.Authenticate(mail_user, mail_password);
+            _clientImap = new ImapClient(new ProtocolLogger("maillog.txt"));
+            _clientImap.ServerCertificateValidationCallback = (s, c, h, e) => true;
+            _clientImap.Connect(mail_host, mail_port, mail_usessl);
+            _clientImap.AuthenticationMechanisms.Remove("XOAUTH2");
+            _clientImap.Authenticate(mail_user, mail_password);
         }
 
         public string FindRecentAuthLink() {
-            var inbox = clientImap.Inbox;
+            var inbox = _clientImap.Inbox;
             inbox.Open(FolderAccess.ReadOnly);
 
             var messageUids = inbox.Search(SearchQuery.DeliveredAfter(DateTime.Today).And(SearchQuery.SubjectContains("LoginLink")));
@@ -55,16 +60,24 @@ namespace Crawler.Logics.Authentication
             return match.Value;
         }
 
-        public void Dispose()
+        protected virtual void Dispose(bool isDisposing)
         {
-            try {
-                clientImap.Disconnect(true);
+            try
+            {
+                _clientImap.Disconnect(true);
             }
-            catch (Exception) {
+            catch (Exception)
+            {
                 // justi ignore because if connection is already down we don't need it
             }
 
-            clientImap.Dispose();
+            _clientImap.Dispose();
+        }
+
+        public void Dispose()
+        {
+            Dispose(true);
+            GC.SuppressFinalize(this);
         }
     }
 }
