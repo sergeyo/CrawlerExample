@@ -13,17 +13,17 @@ Task("RestorePackages")
 Task("Compile")
     .IsDependentOn("RestorePackages")
     .Does(() => {
-        MSBuild("Crawler.sln");
+        MSBuild("Crawler.sln", new MSBuildSettings { Configuration = "Debug" });
     });
 
 Task("RunTests")
     .Does(() => {
         OpenCover(tool => {
-                tool.NUnit3("Bin\\*.Tests.dll");
+                tool.NUnit3("./Bin/*.Tests.dll");
             },
-            new FilePath("./openCoverResult.xml"),
+            new FilePath("openCoverResult.xml"),
             new OpenCoverSettings()
-                .WithFilter("+[*Crawler*]*")
+                .WithFilter("+[Crawler.Logics]*")
                 .WithFilter("-[Crawler.Tests]*"));
     });
  
@@ -36,7 +36,7 @@ Task("SonarBegin")
         Verbose = true,
         Login = sonarAuthKey,
         Organization = "sergeyo",
-        OpenCoverReportsPath = "./openCoverResult.xml"
+        OpenCoverReportsPath = "openCoverResult.xml"
      });
   });
 

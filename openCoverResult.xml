@@ -152,16 +152,16 @@
       <ModuleName>System.Web</ModuleName>
       <Classes />
     </Module>
-    <Module skippedDueTo="Filter" hash="29-0A-82-67-F3-6A-6B-67-8D-0E-3D-69-2A-C4-C6-DA-0D-70-32-FD">
+    <Module skippedDueTo="Filter" hash="E7-51-B0-B3-F3-A4-B9-70-DF-14-46-DC-EA-8D-AD-F8-0A-81-2A-A4">
       <ModulePath>C:\Projects\CrawlerExample\Bin\Crawler.Tests.dll</ModulePath>
-      <ModuleTime>2019-08-10T23:05:26.65584Z</ModuleTime>
+      <ModuleTime>2019-08-10T23:30:55.3374745Z</ModuleTime>
       <ModuleName>Crawler.Tests</ModuleName>
       <Classes />
     </Module>
-    <Module hash="F7-1C-E7-30-32-DC-3A-BA-3F-89-11-42-1B-04-F7-3D-91-AA-85-B2">
+    <Module hash="B8-B4-12-A4-D1-C9-51-39-3B-42-9C-20-FD-D1-6C-23-6A-E9-9E-DF">
       <Summary numSequencePoints="272" visitedSequencePoints="51" numBranchPoints="76" visitedBranchPoints="20" sequenceCoverage="18.75" branchCoverage="26.32" maxCyclomaticComplexity="5" minCyclomaticComplexity="1" maxCrapScore="20" minCrapScore="1" visitedClasses="5" numClasses="14" visitedMethods="9" numMethods="46" />
       <ModulePath>C:\Projects\CrawlerExample\Bin\Crawler.Logics.dll</ModulePath>
-      <ModuleTime>2019-08-10T23:05:26.3472331Z</ModuleTime>
+      <ModuleTime>2019-08-10T23:30:54.5728244Z</ModuleTime>
       <ModuleName>Crawler.Logics</ModuleName>
       <Files>
         <File uid="1" fullPath="C:\Projects\CrawlerExample\Crawler.Logics\CrawlerLogics.cs" />
@@ -1019,10 +1019,10 @@
               <Name>System.Void Crawler.Logics.Authentication.MailService::.cctor()</Name>
               <FileRef uid="11" />
               <SequencePoints>
-                <SequencePoint vc="1" uspid="306" ordinal="0" offset="0" sl="14" sc="9" el="14" ec="118" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="1" uspid="306" ordinal="0" offset="0" sl="14" sc="9" el="14" ec="141" bec="0" bev="0" fileid="11" />
               </SequencePoints>
               <BranchPoints />
-              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="306" ordinal="0" offset="0" sl="14" sc="9" el="14" ec="118" bec="0" bev="0" fileid="11" />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="306" ordinal="0" offset="0" sl="14" sc="9" el="14" ec="141" bec="0" bev="0" fileid="11" />
             </Method>
           </Methods>
         </Class>
